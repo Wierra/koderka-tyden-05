@@ -24,3 +24,20 @@ body {
 	červená		#e74c3c
 */
 
+.obdelnik{
+	background-color: yellow;
+}
+
+@media screen and (min-width: 800px){
+	.obdelnik{
+		background-color: green;
+		text-decoration: underline;
+	}
+}
+
+@media screen and (min-width: 1100px){
+	.obdelnik{
+		background-color: greenyellow;
+		text-decoration: none;
+	}
+}
