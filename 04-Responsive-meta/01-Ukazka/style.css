@@ -23,7 +23,6 @@ img {
 
 
 @media (min-width: 980px) {
-
 	.sloupce {
 		display: flex;
 		justify-content: space-between;
