@@ -35,38 +35,23 @@ výchozí (=mobil) - 1 obrázek na řádku (tj. 12 obrázků pod sebou)
 	}
 
 	.foto{
-		flex: 1 1 calc(100% / 2);
+		flex: 1 1 50%;
 	}
 }
 
 @media screen and (min-width: 650px){
-	.galerie{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
 	.foto{
 		flex: 1 1 calc(100% / 3);
 	}
 }
 
 @media screen and (min-width: 800px){
-	.galerie{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
 	.foto{
-		flex: 1 1 calc(100% / 4);
+		flex: 1 1 25%;
 	}
 }
 
 @media screen and (min-width: 1000px){
-	.galerie{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
 	.foto{
 		flex: 1 1 calc(100% / 6);
 	}
